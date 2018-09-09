@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
 export const routes: Routes = [
-    { path: '', pathMatch: 'full', redirectTo: 'content' },
+    { path: '', pathMatch: 'full', redirectTo: 'login' },
     { path: 'booking', component: BookingComponent },
     { path: 'login', component: LoginComponent },
     { path: 'signup', component: SignUpComponent }
